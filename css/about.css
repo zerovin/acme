@@ -1,0 +1,63 @@
+.qna{
+    width: 856px;
+    margin:0 auto;
+}
+.qna-list h3{
+    background: #ebebeb;
+    height: 54px;
+    line-height: 54px;
+    padding: 0 20px;
+    position: relative;    
+}
+
+.qna-list h3 i {
+    position: absolute;
+    right:20px;
+    /* top:0;  
+    line-height: 54px; */
+    top:50%;
+    transform: translateY(-50%);
+    opacity: 0.4;
+}
+.qna-list div{
+    padding: 20px 20px 30px;
+    display: none;
+}
+.qna-list li+li{
+    margin-top:1px;
+}
+.qna-list li.active h3{
+    font-weight: bold;
+}
+.qna-list li.active i{
+    transform:translateY(-50%) rotate(180deg);
+    opacity: 1;
+}
+.qna-list li.active div{
+    display: block;
+}
+
+.portfolio-wrapper {
+    position: relative;
+}
+.controls i{
+    position: absolute;
+    font-size: 45px;
+    color: #EBEBEB;
+    top:50%;
+    transform:translateY(-50%);
+    cursor: pointer;
+}
+.controls i:first-child{
+    left:0;
+}
+.controls i:last-child{
+    right:0;
+}
+.portfolio-slides li{
+    text-align: center;
+}
+.portfolio-slides li p{
+    width: 50%;
+    margin:27px auto;
+}

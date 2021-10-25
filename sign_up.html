@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Acme co., ltd.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sign.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container sign">
+            <h1 class="logo"><a href="index.html">Acme Logo</a></h1>            
+        </div>        
+    </header>
+    
+    <main>
+        <section class="banner subpage con-pd">
+            <h2 class="banner-tt">create your free account</h2>
+            <form action="" method="POST">
+                <p class="field">
+                    <label for="userName" class="hidden">Name</label>
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="userName" name="username" placeholder="Name">
+                </p>
+                <p class="field">
+                    <label for="userEmail" class="hidden">email</label>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" id="userEmail" name="useremail" placeholder="Email address">
+                </p>
+                <p class="field">
+                    <label for="userPass" class="hidden">password</label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="userPass" name="userpw" placeholder="Password">
+                </p>
+                <p class="field">
+                    <label for="passConfirm" class="hidden">confirm password</label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="passConfirm" placeholder="Confirm password">
+                </p>
+                <input type="submit" class="field" value="create account">
+                <!-- <button class="field">Sign in</button> -->              
+                <div class="feedback">
+                    <p>Oops, it seems you haven't entered your name yet.</p>
+                    <p>This is required.</p>
+                </div>
+            </form>  
+
+        </section>
+    </main>
+    <footer>
+        <a href="" class="link">Already have an account? Sign in</a>         
+    </footer>
+</body>
+</html>

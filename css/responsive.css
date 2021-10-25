@@ -1,0 +1,55 @@
+@media screen and (max-width:1320px){
+    .container {width:100%; padding: 0 15px; box-sizing:border-box;}
+    .features li {width: 31.3%; margin-right: 3.05%;}
+    .banner img {width: 95%;}
+}
+@media screen and (max-width:1000px){
+    .subpage form .feedback {
+        position:fixed;
+        left: 50%;
+        top: 50%;
+        transform:translate(-50%, -50%);
+        box-shadow: 0 0 10px rgba(0,0,0,.6);
+    }
+    .subpage form .feedback:before{
+        content:none;
+    }
+}
+@media screen and (max-width:890px){
+    hr {width:90%;}
+    .testimonial .slide blockquote {width: 90%;}
+    .qna {width: 100%;}
+    .portfolio-slides li img{ width: 100%;}
+    .portfolio-slides li p {width: 80%;}
+}
+@media screen and (max-width:768px){
+    header {text-align: center;}
+    header > div{flex-direction: column;}
+
+    .logo a {margin:0 auto;}
+    header nav {  margin-top: 27px; justify-content: center;}
+}
+@media screen and (max-width:640px){
+    .banner-tt {font-size:8vw; line-height:10vw;}
+    .banner h3 {font-size:5vw; margin:4vw 0;}
+    .features ul{flex-direction:column;}
+    .features li {width: 100%;float:none; margin-right: 0; margin-bottom: 27px;}
+    .features li:last-child{margin-bottom: 0;}
+}
+@media screen and (max-width:580px){
+    header nav p {margin-right: 40px;}
+}
+@media screen and (max-width:400px){
+    form {width:100%; padding:0 15px; box-sizing: border-box;}
+}
+
+@media screen and (max-width:320px){
+
+    header nav, header nav ul{
+        flex-direction:column;
+    }
+
+    header nav p {margin-right: 0;}
+    header nav ul li:first-child {margin-right: 0;margin-bottom: 10px;}
+
+}
